@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:sanberappflutter/Tugas/Tugas10/HomeScreen.dart';
+import 'package:sanberappflutter/Tugas/Tugas10/LoginScreen.dart';
 import 'Tugas/Tugas9/Telegram.dart';
 
 void main() {
@@ -29,10 +31,10 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue.shade50),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
         useMaterial3: true,
       ),
-      home: Telegram(),
+      home: LoginScreen(),
     );
   }
 }
