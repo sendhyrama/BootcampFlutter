@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sanberappflutter/Tugas/Tugas10/HomeScreen.dart';
-import 'package:sanberappflutter/Tugas/Tugas10/LoginScreen.dart';
-import 'Tugas/Tugas9/Telegram.dart';
+import 'package:sanberappflutter/Tugas/Tugas11/LoginScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +32,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
         useMaterial3: true,
       ),
-      home: LoginScreen(),
+      home: Login_Screen(),
     );
   }
 }
