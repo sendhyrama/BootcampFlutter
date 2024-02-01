@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'Tugas/Tugas13/AuthScreen.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:sanberappflutter/Latihan/Latihan1/get_data_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,6 +36,6 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           useMaterial3: true,
         ),
-        home: Auth_Screen());
+        home: GetDataScreenStateManagement());
   }
 }
